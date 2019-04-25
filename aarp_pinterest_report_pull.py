@@ -31,8 +31,8 @@ driver.command_executor._commands["send_command"] = ("POST", '/session/$sessionI
 params = {'cmd': 'Page.setDownloadBehavior', 'params': {'behavior': 'allow', 'downloadPath': "/Users/victorolade/Box/Domo - AARP/AARP - Pinterest"}}
 command_result = driver.execute("send_command", params)
 
-user = "christinatdpaarp@gmail.com" #Define username 
-pwd = "tdpaarp2019" #Define password
+user = "" #Define username 
+pwd = "" #Define password
 
 # STEP 1. Go to the Pinterest Ads home page
 driver.get("https://ads.pinterest.com/login")
